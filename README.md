@@ -1,4 +1,4 @@
 # gitg0.github.io
-My Personal site
+My personal website 
 
 ### 🚧Under construction🚧
