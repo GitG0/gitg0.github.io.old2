@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+}
+  
+  .text-container {
+    height: 90vh;
+    /* width: 90vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-container h1{
+    margin: 0;
+    font-size: 45vh;
+    color: rgba(225,225,225, .01);
+    background-image: url("../assets/homeCodeLight.png");
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    animation: animate 10s ease-in-out infinite;
+    /* animation: animate 30s linear infinite; */
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  [data-bs-theme=dark] .text-container h1{
+    background-image: url("../assets/homeCodeLight.png");
+  }
+
+  [data-bs-theme=light] .text-container h1{
+    background-image: url("../assets/homeCodeDark.png");
+  }
+  
+    @keyframes animate {
+      0%, 100% {
+        background-position: left top;
+      }
+      25%{
+        background-position: right bottom;
+       }
+      50% {
+        background-position: left bottom;
+      }
+      75% {
+        background-position: right top;
+      }   
+    }
+
+    /* @keyframes animate {
+        0% {
+            background-position: middle;
+        }
+        100% {
+            background-position: left;
+        }   
+    } */
