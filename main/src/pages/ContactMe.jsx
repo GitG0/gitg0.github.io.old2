@@ -1,5 +1,13 @@
 export default function ContactMe(){
     return (
-        <h1>Contact me</h1>
+        <>
+            {/* <script>
+                (function() {
+                    ('body').repo({ user: 'darcyclarke', name: 'Repo.js' })
+                });
+            </script>  */}
+            https://github.com/GitG0/gitg0.github.io
+        </>
+        
     )
 }
